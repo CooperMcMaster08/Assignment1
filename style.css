@@ -4,3 +4,23 @@
     align-self:center;
     text-align: center;
 }
+#title-container {
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  align-items: center;
+  
+ 
+  animation-name: rock;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes rock {
+  0%, 100% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+}
